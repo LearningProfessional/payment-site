@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="437"><path fill="%23D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+.card {
+    background-color:white;
+    border-radius: 10px;
+    width: 360px;
+    height: 600px;
+}
+#title-svg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#title{
+    font-size:22px;
+    font-weight: 1000;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding-top: 13px;
+    margin-bottom: 0;
+}
+.test{
+    background-color: hsl(225, 100%, 94%);
+    background-color: hsl(245, 75%, 52%);
+    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(224, 23%, 55%);
+    background-color: hsl(223, 47%, 23%);
+}
+#context{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    padding-left:40px;
+    padding-right: 40px;
+    text-align: center;
+}
+#blue-card{
+    display: flex;
+     width: 280px;
+     height: 70px;
+     background-color: hsl(225, 100%, 98%);
+    margin-left: 40px;
+    padding-left: 1px;
+    border-radius: 10px;
+}
+#music-icon{
+    margin-left: 20px;
+    margin-top:11.5px;
+}
+#annual{
+    padding-left:15px;
+    margin-top: 0;
+    font-size: 15px;
+}
+#plan{
+    color: hsl(223, 47%, 23%);
+    font-weight: 1000;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+#price{
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+}
+#change{
+    padding-left: 50px;
+    padding-top:22px;
+    font-size: 14px;
+    font-weight: 800;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+#proceed{
+    color: white;
+    font-weight: bold;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 30px;
+}
+#proceed:hover{
+    background-color: #766CF1;
+    box-shadow: 10;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#cancel{
+    text-decoration: none;
+    padding-left: 135px;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);;
+}
+#cancel:hover{
+    color:hsl(223, 47%, 23%);
+}
